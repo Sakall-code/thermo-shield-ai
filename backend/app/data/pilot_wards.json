@@ -1,0 +1,175 @@
+{
+  "_meta": {
+    "description": "Pilot ward data for ThermoShield AI prototype — Ahmedabad Municipal Corporation",
+    "wvi_formula": "WVI = 0.35*elderly_ratio + 0.30*slum_density_ratio + 0.25*outdoor_labor_ratio - 0.10*mean_ndvi  (clamped to [0,1])",
+    "crs": "EPSG:4326",
+    "synthetic": true
+  },
+  "wards": [
+    {
+      "id": "AMC-W01",
+      "ward_name": "Dariapur",
+      "population": 84320,
+      "elderly_ratio": 0.14,
+      "slum_density_ratio": 0.52,
+      "outdoor_labor_ratio": 0.45,
+      "mean_ndvi": 0.08,
+      "mean_ndbi": 0.42,
+      "wvi_score": 0.3095,
+      "centroid": { "lat": 23.025, "lon": 72.585 },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [72.578, 23.030],
+              [72.587, 23.031],
+              [72.592, 23.026],
+              [72.590, 23.019],
+              [72.579, 23.0195],
+              [72.578, 23.030]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "AMC-W02",
+      "ward_name": "Behrampura",
+      "population": 121540,
+      "elderly_ratio": 0.09,
+      "slum_density_ratio": 0.61,
+      "outdoor_labor_ratio": 0.58,
+      "mean_ndvi": 0.06,
+      "mean_ndbi": 0.51,
+      "wvi_score": 0.3535,
+      "centroid": { "lat": 22.992, "lon": 72.563 },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [72.556, 22.998],
+              [72.565, 22.999],
+              [72.571, 22.994],
+              [72.570, 22.986],
+              [72.562, 22.985],
+              [72.5555, 22.990],
+              [72.556, 22.998]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "AMC-W03",
+      "ward_name": "Jamalpur",
+      "population": 93780,
+      "elderly_ratio": 0.16,
+      "slum_density_ratio": 0.44,
+      "outdoor_labor_ratio": 0.38,
+      "mean_ndvi": 0.10,
+      "mean_ndbi": 0.38,
+      "wvi_score": 0.273,
+      "centroid": { "lat": 23.018, "lon": 72.578 },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [72.571, 23.024],
+              [72.580, 23.025],
+              [72.585, 23.019],
+              [72.583, 23.012],
+              [72.572, 23.013],
+              [72.571, 23.024]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "AMC-W04",
+      "ward_name": "Maninagar",
+      "population": 146210,
+      "elderly_ratio": 0.12,
+      "slum_density_ratio": 0.30,
+      "outdoor_labor_ratio": 0.32,
+      "mean_ndvi": 0.15,
+      "mean_ndbi": 0.33,
+      "wvi_score": 0.197,
+      "centroid": { "lat": 22.998, "lon": 72.605 },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [72.597, 23.004],
+              [72.606, 23.005],
+              [72.613, 23.001],
+              [72.612, 22.992],
+              [72.604, 22.991],
+              [72.5975, 22.995],
+              [72.597, 23.004]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "AMC-W05",
+      "ward_name": "Naranpura",
+      "population": 108640,
+      "elderly_ratio": 0.11,
+      "slum_density_ratio": 0.15,
+      "outdoor_labor_ratio": 0.20,
+      "mean_ndvi": 0.22,
+      "mean_ndbi": 0.28,
+      "wvi_score": 0.1115,
+      "centroid": { "lat": 23.048, "lon": 72.554 },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [72.547, 23.054],
+              [72.556, 23.055],
+              [72.561, 23.049],
+              [72.558, 23.042],
+              [72.548, 23.0425],
+              [72.547, 23.054]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "AMC-W06",
+      "ward_name": "Vastrapur",
+      "population": 74850,
+      "elderly_ratio": 0.08,
+      "slum_density_ratio": 0.07,
+      "outdoor_labor_ratio": 0.14,
+      "mean_ndvi": 0.31,
+      "mean_ndbi": 0.20,
+      "wvi_score": 0.053,
+      "centroid": { "lat": 23.035, "lon": 72.527 },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [72.519, 23.041],
+              [72.528, 23.042],
+              [72.535, 23.037],
+              [72.534, 23.029],
+              [72.526, 23.028],
+              [72.520, 23.032],
+              [72.519, 23.041]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

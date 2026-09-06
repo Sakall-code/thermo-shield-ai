@@ -1,0 +1,22 @@
+INFO:     Will watch for changes in these directories: ['/home/sakall/Documents/heatwave_sih/thermo-shield-ai/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [27231] using WatchFiles
+INFO:     Started server process [27233]
+INFO:     Waiting for application startup.
+2026-09-07 01:49:08,369 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2026-09-07 01:49:08,369 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("wards")
+2026-09-07 01:49:08,369 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-09-07 01:49:08,370 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("hourly_forecasts")
+2026-09-07 01:49:08,370 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-09-07 01:49:08,370 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("health_surges")
+2026-09-07 01:49:08,370 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-09-07 01:49:08,370 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("alert_logs")
+2026-09-07 01:49:08,370 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-09-07 01:49:08,371 INFO sqlalchemy.engine.Engine COMMIT
+2026-09-07 01:49:08,371 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2026-09-07 01:49:08,378 INFO sqlalchemy.engine.Engine SELECT wards.id, wards.ward_name, wards.population, wards.elderly_ratio, wards.slum_density_ratio, wards.outdoor_labor_ratio, wards.mean_ndvi, wards.mean_ndbi, wards.wvi_score, wards.centroid_lat, wards.centroid_lon, wards.geom_geojson 
+FROM wards
+ LIMIT ? OFFSET ?
+2026-09-07 01:49:08,378 INFO sqlalchemy.engine.Engine [generated in 0.00018s] (1, 0)
+2026-09-07 01:49:08,379 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     Application startup complete.
